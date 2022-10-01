@@ -4,15 +4,15 @@
   <xsl:variable name="year" select="//YearQuery" />
   <!-- <xsl:variable name="mpg" select="14" /> -->
 
-  <!-- <xsl:template match="/">
+  <xsl:template match="/">
     <cars>
       <xsl:for-each select="/">
         <xsl:copy-of select="//cars/car[ Year = $year]" />
       </xsl:for-each>
     </cars>
-  </xsl:template> -->
+  </xsl:template>
 
-  <xsl:template match="/">
+  <!-- <xsl:template match="/">
     <cars>
       <xsl:for-each select="//cars/car">
         <xsl:if test="Year = $year">
@@ -20,5 +20,5 @@
         </xsl:if>
       </xsl:for-each>
     </cars>
-  </xsl:template>
+  </xsl:template> -->
 </xsl:stylesheet>
