@@ -1,4 +1,5 @@
 <root>
+    <YearQuery>2012</YearQuery>
     <cars>
       <car>
         <Year>2007</Year>
